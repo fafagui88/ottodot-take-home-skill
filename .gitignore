@@ -1,0 +1,21 @@
+# env / secrets
+.env
+
+# mysql bind-mounted data dir
+mysql/data/
+
+# node / next
+node_modules/
+main/.next/
+main/out/
+main/next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.log
+
+# AI assistant local files
+CLAUDE.md
+AGENTS.md
+.claude/
